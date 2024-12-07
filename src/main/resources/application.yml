@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: RESTAPI_CURD_01
+  datasource:
+    url: jdbc:mysql://localhost:3303/Spring
+    username: root
+    password: Venkatesh
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
